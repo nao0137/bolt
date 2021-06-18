@@ -370,6 +370,7 @@ img {
   /*--------------------------*/
   .image-zone-text {
     width: 300px;
+    margin-left: 33px;
   }
   /*---------------------------*/
   .button-zone {
@@ -377,6 +378,7 @@ img {
     padding-bottom: 50px;
     padding-left: 15px;
     padding-right: 15px;
+    width: unset;
   }
   
   .box {
@@ -395,14 +397,16 @@ img {
 /*---TAB---*/
 @media screen and (min-width:768px) and (max-width:1199px) {
   /*-----------------------*/
+  
+  /*-----------------------*/
   .phone-zone-text {
-    width: 900px;
+    width: 80%;
   }
 
   /*------------------------*/
   .image-zone-text {
-    width: 900px;
-    
+    width: 80%;
+    margin-left: 70px;
   }
   /*--------------------------*/
   .circle {
